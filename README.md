@@ -22,3 +22,19 @@ This CSV file inventories all AWS identities (IAM users and root) and details th
 Next, we also have Access advisor
 
 Once your in the AWS Management Console
+
+In the left navigation pane, choose the entity type you want to audit: Users, Roles, User groups, and Policies. For this example, I chose users
+
+<img width="963" height="798" alt="image" src="https://github.com/user-attachments/assets/919ea87c-825d-4190-b293-5561f63f6c8d" />
+
+Click on the name of the specific user, role, group, or policy: Robert
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a52b7ca0-9ba8-4b52-bae5-2d2c705fabea" />
+
+Select the Last Accessed tab next to the Security credentials tab
+
+<img width="1913" height="738" alt="image" src="https://github.com/user-attachments/assets/03a0bd06-220f-472c-95a3-bb873f3e0daa" />
+
+Here you can review the list of services and their Last accessed timestamps. The primary benefit of IAM Access Advisor is achieving least privilege by identifying and removing unused AWS permissions
+
+<img width="1567" height="810" alt="image" src="https://github.com/user-attachments/assets/c7e24de9-5e8f-4cb7-ba6b-470bd62637dc" />
