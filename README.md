@@ -1,5 +1,5 @@
 # AWS-IAM-SECURITY-TOOLS
-Walkthrough on how to use Credentials Report and IAM Access Advisor
+Walkthrough on how to use Credential Report and Access Advisor
 
 Starting with Credential report sign in to the AWS Management Console and search for or select IAM
 
